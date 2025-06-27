@@ -1,0 +1,157 @@
+sum of entered numbers
+
+n=int(input())
+2	sum=0
+3	while(n>0):
+4	    id=n%10
+5	    sum=sum+id
+6	    n=n//10
+7	print(sum)
+
+
+	n=int(input())
+2	evensum=0
+3	while(n>0):
+4	    id=n%10
+5	    if(id%2==0):
+6	        evensum=evensum+id
+7	    n=n//10
+
+
+enter cheytha n numbersil num even numbernte sum find cheyyan
+
+
+	n=int(input())
+2	evensum=0
+3	osum=0
+4	while(n>0):
+5	    id=n%10
+6	    if(id%2==0):
+7	        evensum=evensum+id
+8	    else:
+9	      osum=osum+id  
+10	    n=n//10
+11	print(evensum)
+12	print(osum)
+
+enterd bnumberil ninnum odd and even numbersnte sum find aakaan eg enterd number ois 123456 ahnnenkil 
+evensum=12
+osum=9
+
+
+n=int(input())
+2	rev=0
+3	while(n>0):   
+4	    id=n%10
+5	    rev=rev*10+id
+6	    n=n//10
+7	print(rev)
+
+entere cheytha number reverse aakan eg entered number is=123456
+output will be=654321
+
+
+n=int(input())
+2	sum=0
+3	for i in range(1,n+1,1):
+4	    term=i**2
+5	    sum=sum+term
+6	print(sum)
+
+enter cheytha number vare ulla numbersnte square sum kaannan
+
+
+
+n=int(input())
+2	t=1
+3	while(t<=n):
+4	    print(t,end=" ")
+5	    t=t*2
+
+
+1 2 4 6 8 128 inghane double cheythu pona serires print cheyyikkaan
+
+
+n=int(input())
+2	for i in range(1,n//2+1,1):
+3	    if n%i==0:
+4	        print(i,end=" ")
+
+entered numbernte ptoper divisor kittan,like100   1 2 4 10 20 50
+
+n=int(input())
+2	s=0;j=2;k=7;sign=1
+3	for i in range(1,n+1):
+4	    term=j/k
+5	    s=s+term
+6	    j=j+3
+7	    k=k+4
+8	print(f"{s:.6f}")
+
+2/7 5/11 ithupolthe series sum kaannan
+
+n=int(input())
+2	cnt=0;sum=0;n_cpy=n
+3	while(n>0):
+4	      n=n//10
+5	      cnt=cnt+1
+6	n=n_cpy
+7	while(n>0):
+8	       id=n%10
+9	       sum=sum+id**cnt 
+10	       n=n//10
+11	n=n_cpy      
+12	      
+13	      
+14	      
+15	if(sum==n):
+16	    print("yes")
+17	    
+18	else:
+19	    
+20	    print("no")
+armdstrong number find cheyyan
+
+
+n=int(input())
+2	steps=0
+3	while n>0:
+4	    steps+=1
+5	    if n%5==0:
+6	        n=n//5
+7	    elif n%3==0:
+8	        n=n//3
+9	    elif n%2==0:
+10	        n=n//2
+11	    else:
+12	         n=n-1
+13	
+14	
+15	
+16	print(steps)
+
+
+company level question 5 kodu divide cheythal athu print anghane 3, 2 anghane cheyya.....
+
+n=int(input())
+2	cnt=1
+3	for i in range(1,n+1):
+4	    for j in range(1,n+1):
+5	        if i%2==1:
+6	            print(cnt,end=" ")
+7	            cnt=cnt+1
+8	        else:
+9	            cnt=cnt-1
+10	            print(cnt,end=" ")
+11	            
+12	    print()
+13	    cnt=cnt+n
+
+ee matrix print cheyyippikaaan
+1 2 3 4 
+8 7 6 5 
+9 10 11 12 
+16 15 14 13
+
+
+
